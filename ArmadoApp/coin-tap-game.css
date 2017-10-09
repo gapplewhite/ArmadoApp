@@ -1,0 +1,82 @@
+#score {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color: #f0f;
+	font-weight: bold;
+	font-size: 30px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+#fps {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color: #f0f;
+	font-weight: bold;
+	font-size: 30px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+
+#coinTapGameContainer {
+
+	background-image: url("images/campob.png"); 
+	position: absolute;
+	background-size: 100% 100%;
+	width: 1200px;
+	height: 2000;
+}
+#coinTapGameContainer canvas {
+	margin: 0;
+	padding:400px 0px 0px 0px;
+	width: 1200px;//1096x;
+	height: 1165;//665;
+}
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 500px) {
+#score {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+
+#fps {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+
+#coinTapGameContainer {
+	background-image: url("images/campob.png");
+	position: relative;
+	background-size: 100% 100%;
+	width: 1096px;
+	height: 665;
+	margin: 0 auto;
+	padding-top: 0px;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+#coinTapGameContainer canvas {
+	margin: 0;
+	padding: 0;
+	width: 1096px;
+	height: 665;
+}
+}
+
